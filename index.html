@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sol Perfumes Wholesale — Wholesale Fragrances in Los Angeles</title>
+<meta name="description" content="Sol Perfumes Wholesale is a Los Angeles based wholesale fragrance distributor. 100+ styles in stock, from $16 per piece, pickup in La Puente or courier shipping. Operated by LA AIDAR WHOLESALE INC.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  /* palette borrowed from reference: dark-led warm candlelight scheme */
+  --bg:#151515;
+  --surface:#1d1a17;
+  --cream:#fef1e8;
+  --taupe:#988575;
+  --amber:#d69900;
+  --hairline:#3a332c;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font:16px/1.65 'Source Sans 3',ui-sans-serif,system-ui,sans-serif;
+  color:var(--cream);background:var(--bg);
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--amber);text-decoration:none}
+a:hover{text-decoration:underline}
+:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px}
+h1,h2,.serif{font-family:'Marcellus',Georgia,serif;font-weight:400}
+h1,h2{text-transform:uppercase;letter-spacing:.18em;line-height:1.15}
+
+/* announcement bar */
+.announce{
+  background:var(--cream);color:#151515;
+  font-size:.8rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;
+  text-align:center;padding:10px 16px;
+}
+
+/* header */
+header.site{
+  display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;
+  padding:22px 0;border-bottom:1px solid var(--hairline);
+}
+.wordmark{font-family:'Marcellus',Georgia,serif;font-size:1.35rem;letter-spacing:.14em;text-transform:uppercase;color:var(--cream)}
+.wordmark span{color:var(--amber)}
+nav.main{display:flex;flex-wrap:wrap;gap:26px}
+nav.main a{
+  color:var(--taupe);font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;font-weight:600;
+  transition:color .2s ease-out;
+}
+nav.main a:hover{color:var(--cream);text-decoration:none}
+
+/* trust row */
+.trust{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1px;
+  background:var(--hairline);border:1px solid var(--hairline);margin:40px 0 0;
+}
+.trust div{background:var(--bg);padding:16px 20px;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--cream)}
+.trust b{color:var(--amber);font-weight:600;display:block;margin-bottom:2px}
+
+/* hero */
+.hero{padding:88px 0 72px;max-width:720px}
+.hero .eyebrow{font-size:.78rem;letter-spacing:.3em;text-transform:uppercase;color:var(--amber);font-weight:600;margin-bottom:22px}
+.hero h1{font-size:clamp(2.2rem,5vw,3.6rem);margin-bottom:26px}
+.hero p{color:var(--taupe);font-size:1.1rem;max-width:65ch}
+
+/* section label */
+section{padding:64px 0}
+.label{
+  display:flex;align-items:center;gap:18px;
+  font-size:.78rem;letter-spacing:.3em;text-transform:uppercase;color:var(--cream);font-weight:600;
+  margin-bottom:36px;
+}
+.label::after{content:"";flex:1;height:1px;background:var(--hairline)}
+
+/* categories */
+.cats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0;border-top:1px solid var(--hairline)}
+.cats div{
+  padding:22px 4px;border-bottom:1px solid var(--hairline);
+  font-family:'Marcellus',Georgia,serif;letter-spacing:.1em;text-transform:uppercase;font-size:1.02rem;color:var(--cream);
+}
+.cats small{display:block;font-family:'Source Sans 3',sans-serif;text-transform:none;letter-spacing:.04em;color:var(--taupe);font-size:.85rem;margin-top:4px}
+
+/* value props */
+.props{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:32px}
+.props b{font-family:'Marcellus',Georgia,serif;font-size:2rem;color:var(--amber);display:block;line-height:1.1;margin-bottom:8px}
+.props span{color:var(--taupe);font-size:.95rem}
+
+/* how to order steps */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:32px}
+.steps div{border-top:2px solid var(--amber);padding-top:18px}
+.steps b{font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);display:block;margin-bottom:10px;font-weight:600}
+.steps p{color:var(--taupe);font-size:.95rem}
+
+/* CTA */
+.cta{background:var(--surface);border:1px solid var(--hairline);padding:56px 40px;text-align:left}
+.cta h2{font-size:clamp(1.5rem,3vw,2.2rem);margin-bottom:14px}
+.cta p{color:var(--taupe);max-width:60ch;margin-bottom:28px}
+.btn{
+  display:inline-block;background:var(--amber);color:#151515;
+  font-size:.82rem;letter-spacing:.2em;text-transform:uppercase;font-weight:600;
+  padding:16px 34px;transition:background .2s ease-out;
+}
+.btn:hover{background:var(--cream);text-decoration:none}
+.btn.tel{background:transparent;color:var(--cream);box-shadow:inset 0 0 0 1px var(--hairline);margin-left:12px}
+.btn.tel:hover{box-shadow:inset 0 0 0 1px var(--amber)}
+
+/* faq */
+details{border-bottom:1px solid var(--hairline)}
+summary{
+  cursor:pointer;padding:20px 4px;list-style:none;
+  font-family:'Marcellus',Georgia,serif;letter-spacing:.06em;font-size:1.08rem;color:var(--cream);
+  display:flex;justify-content:space-between;align-items:center;gap:16px;
+}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--amber);font-size:1.3rem;transition:transform .2s ease-out}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 4px 22px;color:var(--taupe);max-width:70ch}
+summary:hover{color:var(--amber)}
+
+/* contact / footer */
+footer{border-top:1px solid var(--hairline);padding:56px 0 40px}
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:36px;margin-bottom:48px}
+.contact-grid h3{font-size:.78rem;letter-spacing:.3em;text-transform:uppercase;color:var(--amber);margin-bottom:14px;font-weight:600;font-family:'Source Sans 3',sans-serif}
+.contact-grid p,.contact-grid a{color:var(--cream);font-size:.98rem;line-height:1.8}
+.legal{border-top:1px solid var(--hairline);padding-top:28px;color:var(--taupe);font-size:.82rem;line-height:1.8}
+.legal b{color:var(--cream);font-weight:600;letter-spacing:.08em}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+@media (max-width:640px){
+  .hero{padding:56px 0 48px}
+  section{padding:44px 0}
+  .btn{display:block;text-align:center;margin:0 0 12px}
+  .btn.tel{margin-left:0}
+}
+</style>
+</head>
+<body>
+
+<div class="announce">Local pickup in La Puente, Los Angeles · Courier shipping available</div>
+
+<div class="wrap">
+  <header class="site">
+    <div class="wordmark">Sol <span>Perfumes</span> Wholesale</div>
+    <nav class="main">
+      <a href="#categories">Categories</a>
+      <a href="#ordering">How to order</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="trust">
+    <div><b>Wholesale only</b>B2B — retailers &amp; resellers</div>
+    <div><b>30-piece minimum</b>Pickup &amp; local delivery</div>
+    <div><b>No minimum</b>Courier orders &amp; samples</div>
+    <div><b>100+ styles</b>New stock every week</div>
+  </div>
+
+  <div class="hero">
+    <div class="eyebrow">Wholesale fragrance distributor · Los Angeles</div>
+    <h1>Perfumes at wholesale prices, stocked locally</h1>
+    <p>Sol Perfumes Wholesale supplies retailers, resellers, and market vendors across Los Angeles and Southern California. Over 100 styles in stock from $16 per piece — pick up your order in La Puente the same week, or have it shipped by courier with no minimum.</p>
+  </div>
+
+  <section id="categories">
+    <div class="label">Categories</div>
+    <div class="cats">
+      <div>Women's fragrances<small>Eau de parfum &amp; eau de toilette</small></div>
+      <div>Men's fragrances<small>Cologne &amp; eau de toilette</small></div>
+      <div>Unisex &amp; niche<small>High-demand styles</small></div>
+      <div>Gift sets<small>Boxed sets for retail</small></div>
+      <div>Body mist &amp; sprays<small>High-turnover items</small></div>
+      <div>Travel &amp; minis<small>Counter-friendly sizes</small></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label">Why buyers work with us</div>
+    <div class="props">
+      <div><b>100+</b><span>Styles in stock at any time, restocked weekly</span></div>
+      <div><b>$16</b><span>Starting price per piece on wholesale orders</span></div>
+      <div><b>Same week</b><span>Local pickup in La Puente or LA-area delivery</span></div>
+      <div><b>Samples</b><span>Single units available by courier before you commit</span></div>
+    </div>
+  </section>
+
+  <section id="ordering">
+    <div class="label">How to order</div>
+    <div class="steps">
+      <div><b>01 · Message us</b><p>Write to us on WhatsApp at +1 626 366 4520 and we send you this week's catalog with wholesale prices.</p></div>
+      <div><b>02 · Build your order</b><p>Pick your styles and quantities. Minimum 30 pieces for pickup or local delivery; courier orders have no minimum.</p></div>
+      <div><b>03 · Confirm &amp; pay</b><p>We confirm stock and total on WhatsApp. Payment details are arranged per order.</p></div>
+      <div><b>04 · Pick up or receive</b><p>Collect in La Puente, get local delivery in the LA area, or receive your shipment by courier.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="cta">
+      <h2>Get this week's catalog</h2>
+      <p>Message us on WhatsApp and we will send the current stock list with wholesale prices within business hours. Serving retailers and resellers across Los Angeles.</p>
+      <a class="btn" href="https://wa.me/16263664520">WhatsApp +1 626 366 4520</a>
+      <a class="btn tel" href="mailto:admin@solperfumeswholesale.com">Email us</a>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="label">Frequently asked questions</div>
+    <details>
+      <summary>What is the minimum order?</summary>
+      <p>For local pickup in La Puente or LA-area delivery, the minimum is 30 pieces. Courier orders have no minimum — you can also order single sample units by courier before placing a larger order.</p>
+    </details>
+    <details>
+      <summary>Where do I pick up my order?</summary>
+      <p>Pickup is in La Puente, Los Angeles County. The exact pickup address is shared privately on WhatsApp once your order is confirmed — it varies by order.</p>
+    </details>
+    <details>
+      <summary>How do I see prices and the full catalog?</summary>
+      <p>Message us on WhatsApp at +1 626 366 4520 and we send you this week's stock list with wholesale prices. The catalog is updated weekly as new stock arrives.</p>
+    </details>
+    <details>
+      <summary>Do you ship outside Los Angeles?</summary>
+      <p>Yes. Courier shipping is available for any order size, including samples. Shipping cost and timing are confirmed per order on WhatsApp.</p>
+    </details>
+    <details>
+      <summary>Can I order samples before buying in bulk?</summary>
+      <p>Yes — single sample units are available, shipped by courier only. Many buyers check samples first, then place a 30-piece or larger order.</p>
+    </details>
+  </section>
+
+  <footer id="contact">
+    <div class="contact-grid">
+      <div>
+        <h3>Contact</h3>
+        <p>
+          <a href="https://wa.me/16263664520">WhatsApp: +1 626 366 4520</a><br>
+          <a href="mailto:admin@solperfumeswholesale.com">admin@solperfumeswholesale.com</a><br>
+          <a href="tel:+16263664520">+1 626 366 4520</a>
+        </p>
+      </div>
+      <div>
+        <h3>Pickup</h3>
+        <p>La Puente, Los Angeles County, CA<br>Exact address shared per confirmed order</p>
+      </div>
+      <div>
+        <h3>Hours</h3>
+        <p>Monday – Saturday<br>Replies within business hours, Pacific Time</p>
+      </div>
+    </div>
+    <div class="legal">
+      Operated by <b>LA AIDAR WHOLESALE INC</b> · 1401 21st St Ste 5434, Sacramento, CA 95811, United States<br>
+      © 2026 LA AIDAR WHOLESALE INC. All rights reserved. · solperfumeswholesale.com
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>
