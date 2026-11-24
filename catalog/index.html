@@ -1,21 +1,12 @@
-<!doctype html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="noindex, nofollow" />
-    <meta name="description" content="Catálogo de mayoreo de perfumes en La Puente, California. Precios por pieza, descuento desde 100 piezas." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Catálogo de Mayoreo · Sol Perfumes Wholesale</title>
-    <script type="module" crossorigin src="/catalog/assets/index-CPQT4DZC.js"></script>
-    <link rel="stylesheet" crossorigin href="/catalog/assets/index-DoA22jZb.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
+<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Sol Perfumes · Catálogo de mayoreo</title><link rel="stylesheet" href="style.css">
+<header><a class="logo" href="#">SOL<span>PERFUMES WHOLESALE</span></a><nav><a href="#catalog">Perfumes</a><a href="#terms">Cómo comprar</a><button id="language">EN</button><button id="cartButton">Mi pedido <b id="count">0</b></button></nav></header>
+<main><section class="hero"><div><p class="eyebrow">SOL PERFUMES WHOLESALE · LA PUENTE, CA</p><h1>Tu próximo<br>gran surtido.</h1><p>Perfumes al mayoreo.<br>Combina modelos y arma tu pedido.</p><a class="primary" href="#catalog">Ver catálogo</a></div><div class="heroPhotos" id="heroPhotos"></div></section>
+<section id="catalog"><div class="row categories" id="series"></div><div id="brands" class="row brands" aria-label="Marcas"></div><div class="tools"><input id="search" type="search" placeholder="Buscar SKU o marca…" aria-label="Buscar SKU o marca"><select id="stockFilter" aria-label="Inventario"><option value="all">Todo el inventario</option><option value="in">Con existencias</option><option value="out">Agotados</option></select></div>
+<aside class="tierInfo"><strong id="mixTitle">Mayoreo combinado</strong><p id="mixText">La cantidad total del pedido define tu nivel de precio. Combina modelos de todas las marcas.</p><div class="row"><span>24–47 pzs</span><span>48–95 pzs</span><span>96+ pzs</span></div></aside>
+<div class="catalogHeading"><h2 id="catalogTitle">Todos los perfumes</h2><span id="results"></span></div><div class="letters" id="letters"></div><div id="products"></div><p id="empty" hidden>No encontramos modelos con estos filtros.</p></section>
+<section id="terms"><h2>Cómo comprar</h2><div class="termsGrid"><div><h3>30 piezas, combinadas</h3><p>Pedido de mayoreo desde 30 piezas. La entrega local requiere un mínimo de 30 piezas y confirmación de dirección.</p></div><div><h3>Precio por volumen</h3><p>Cada modelo conserva su precio. El nivel se calcula con el total de piezas del pedido.</p></div><div><h3>Confirma tu pedido</h3><p>Rachel confirma por teléfono la fecha, hora y lugar de entrega. No se aceptan devoluciones.</p></div></div><p class="muted">Inventario según la última tabla cargada; no representa una conexión en vivo con el almacén.</p></section></main>
+<footer><div class="logo">SOL<span>PERFUMES WHOLESALE</span></div><p>La Puente, California · Mayoreo de perfumes</p><a href="#catalog">Catálogo</a><a href="#terms">Cómo comprar</a></footer>
+<dialog id="photoModal"><button class="close" id="closePhoto" aria-label="Cerrar">×</button><p class="eyebrow" id="photoLabel">FOTO DEL PRODUCTO</p><div class="photoSquare"><img id="largePhoto" alt=""></div><strong id="photoTitle"></strong><button id="bottomClose">Cerrar</button></dialog>
+<dialog id="cartModal"><button class="close" id="closeCart" aria-label="Cerrar">×</button><h2 id="orderTitle">Mi pedido</h2><p class="muted" id="tierApplied"></p><div id="cartRows"></div><div class="total"><span id="totalLabel">Total de mercancía</span><strong id="total"></strong></div><p class="muted">Envío y cargos aplicables se confirman por separado. No es una confirmación de entrega ni de pago.</p><div class="row"><button id="copyQuote" class="primary">Copiar cotización</button><button id="downloadQuote">Descargar CSV</button><button id="clearCart">Vaciar</button><a class="primary" href="pedido.html">Completar pedido</a></div><p id="cartStatus" role="status"></p></dialog><div id="toast" role="status"></div>
+<script src="data.js"></script><script src="app.js"></script><script src="language.js"></script></html>
+
